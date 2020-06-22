@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#d9d9d9"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_Player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:height="150dp"
+        android:minHeight="100dp"
+        android:background="#b3b3b3"
+        android:minWidth="150dp"
+        android:textColor="#000000"
+        android:onClick="onBtnDJ"
+        android:text="Music Player"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/txt_dj_music_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="(음악 재생)"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/mode_dj"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/TextView01"
+        android:layout_toStartOf="@+id/TextView01" />
+
+    <Button
+        android:id="@+id/btn_Speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_Player"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:height="150dp"
+        android:minHeight="100dp"
+        android:minWidth="150dp"
+        android:onClick="onBtnSp"
+        android:text="Speaker"
+        android:width="250dp"
+        android:background="#b3b3b3"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_Speaker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:onClick="onBtnSp"
+        android:text="(음악 듣기)"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_above="@+id/TextView01"
+        android:layout_marginBottom="36dp"
+        android:layout_toRightOf="@+id/TextView01"
+        android:src="@drawable/mode_speakers" />
+
+ </RelativeLayout>

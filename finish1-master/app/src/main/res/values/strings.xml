@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">"Wi-Fi Direct Sound Sharing"</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dj">Music Player</string>
+    <string name="title_activity_speaker">Speaker</string>
+    <string name="enable_p2p_button">P2P Settings</string><!--2020 06 02 정리-->
+
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Select File</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery</string>
+    <string name="p2p_off_warning">Please enable P2P system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">Me</string>
+    <string name="label_speakers">Nearby Speakers</string>
+    <string name="label_djs">Nearby DJs (Tap to Connect)</string>
+    <string name="song_waiting">Waiting for song selection</string>
+    <string name="play_music">PLAY</string>
+    <string name="stop_music">STOP</string>
+</resources>
